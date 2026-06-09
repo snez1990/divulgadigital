@@ -53,6 +53,11 @@ body::after {
   to   { transform: translate3d(14px, 8px, 0) scale(1.02); }
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
 .container {
   position: relative;
   max-width: 860px;
